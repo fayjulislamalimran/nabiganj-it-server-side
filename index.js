@@ -10,8 +10,8 @@ app.use(cors());
 app.get("/courses", (req, res) => {
   res.send(courses);
 });
-app.get("/", (req, res) => {
-  res.send("");
+app.get("", (req, res) => {
+  res.send("best web developer training");
 });
 
 app.get("/courses/:id", (req, res) => {
