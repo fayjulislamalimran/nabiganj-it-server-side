@@ -10,7 +10,7 @@ app.use(cors());
 app.get("/courses", (req, res) => {
   res.send(courses);
 });
-app.get("", (req, res) => {
+app.get("/", (req, res) => {
   res.send("best web developer training");
 });
 
