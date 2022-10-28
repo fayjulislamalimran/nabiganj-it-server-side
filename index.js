@@ -11,7 +11,7 @@ app.get("/courses", (req, res) => {
   res.send(courses);
 });
 app.get("/", (req, res) => {
-  res.send("best web developer training");
+  res.send("");
 });
 
 app.get("/courses/:id", (req, res) => {
